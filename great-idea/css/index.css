@@ -157,6 +157,7 @@ h5 {
 
 /* Start of My CSS */
 
+
 /* Navigation */
 
 nav {
@@ -197,7 +198,7 @@ nav a:hover {
 	align-items: center;
 	align-content: center;
 	justify-content: space-around;
-	margin-top: 40px;
+	margin: 40px 0px;
 }
 
 .intro-text {
@@ -233,12 +234,20 @@ nav a:hover {
 	text-transform: uppercase;
 }
 
+hr {
+	width: 94%;
+	height: 2.5px;
+	color: black;
+	background-color: black;
+}
+
 /* Main Content */
 
 /* general */
 .title {
 	font-size: 20px;
 	font-weight: bold;
+	margin-bottom: 15px;
 }
 
 /* content */
@@ -247,20 +256,33 @@ nav a:hover {
 	display: flex;
 	margin: 50px 0px;
 	justify-content: space-around;
+	flex-direction: column;
+	width: 95%;
+	align-content: center;
+	align-items: center;
+	margin-left: 40px;
 }
 
 .main .two {
 	display: flex;
 	width: 100%;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
 }
+
 
 .main img {
 	display: flex;
+	margin: 30px 0px;
+	width: 100%;
 }
 
 .main .three {
 	display: flex;
+	justify-content: space-around;
 }
+
 
 /* Contact Section */
 
@@ -269,7 +291,7 @@ nav a:hover {
 	flex-direction: column;
 	justify-content: space-around;
 	margin-top: 50px;
-	margin-left: 20px;
+	margin-left: 40px;
 }
 
 .contact .title {
