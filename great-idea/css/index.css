@@ -414,3 +414,76 @@ footer {
 	width: 45%;
 	justify-content: flex-end;
 }
+
+/* extra */
+
+
+
+/* Responsive layout */
+@media (max-width: 700px) {
+
+	.links {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		width: 100%;
+		text-align: center;
+		margin: 30px 0px;
+		line-height: 2;
+	}
+
+	header nav {
+		flex-direction: column;
+		margin-bottom: 30px;
+	}
+
+	.intro {
+		flex-direction: column-reverse;
+		margin-top: 260px;
+	}
+
+	.two {
+		flex-direction: column;
+		flex-wrap: wrap
+	}
+
+	.features {
+		margin-bottom: 30px;
+	}
+
+	.three {
+		flex-direction: column;
+		flex-wrap: wrap
+	}
+
+	.services {
+		margin-bottom: 30px;
+	}
+
+	.product {
+		margin-bottom: 30px;
+	}
+
+	.main img {
+		width: 80%;
+		align-content: center;
+		justify-content: center;
+		margin-right: 35px;
+	}
+
+	.contact {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.contact .title {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	footer p {
+		flex-direction: column;
+		text-align: center;
+		margin-left: 35px;
+	}
+}
